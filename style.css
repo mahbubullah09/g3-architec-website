@@ -54,7 +54,7 @@ li>a {
     max-width: 470px;
     margin: auto;
     text-align: center;
-   
+
 
 
 }
@@ -90,16 +90,330 @@ li>a {
 
 
 }
-.btn{
-    width: 142px;
-height: 40px; 
-border-radius: 8px;
-background: #FF900E; 
-border: none;
+
+
+.btn {
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
 }
 
-header img{
+header img {
     width: 70%;
     margin: 20px 15%;
     text-align: center;
+}
+
+
+/* quick list feature section */
+
+
+.quick-list {
+
+    max-width: 900px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.card>img {
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.card-flex {
+
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.right-header {
+    width: 200PX;
+    color: #727272;
+
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right-para {
+    margin: 15px 0;
+    width: 270px;
+    color: #727272;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+/* feature you will love section */
+
+.feture-you-will-love {
+
+    max-width: 950px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    gap: 60px;
+
+}
+
+.left-side-header {
+
+    width: 240px;
+    color: #131313;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+}
+
+
+.left-side-pera {
+
+    width: 290px;
+    color: #727272;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    margin-bottom: 20px;
+}
+
+
+.card-feture-will {
+    width: 300px;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px 25px 20px 20px;
+    margin-bottom: 10px;
+
+}
+
+.card-header {
+    color: #131313;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+
+}
+
+.card-pera {
+    color: #727272;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+
+
+
+}
+
+
+
+
+.right-img {
+
+    width: 450px;
+    height: 595px;
+    position: relative;
+}
+
+.right-img>img {
+
+    width: 450px;
+    height: 595px;
+
+}
+
+
+.absolute {
+    color: #ffff;
+    background-color: #FF900E;
+    width: 171px;
+
+    padding: 30px 21px;
+    position: absolute;
+    right: 550px;
+    top: 2030px;
+}
+
+
+
+/* some fact section */
+
+.some-fact {
+
+
+
+    max-width: 900px;
+    margin: 120px auto;
+
+
+}
+
+.some-fact-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.some-fact-header {
+
+    color: #131313;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+
+.some-fact-pera {
+
+    color: #727272;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    width: 270px;
+}
+
+
+
+.s-card {
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 120px;
+    padding: 30px 15px;
+    border: 1px solid #FF900E;
+}
+
+.s-card>h4 {
+
+    color: #424242;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.s-card>p {
+    color: #727272;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+/* sponsor section */
+
+.sponsor {
+
+    max-width: 950px;
+    margin: 120px auto;
+    text-align: center;
+
+
+}
+
+.sponsor>h3 {
+
+    color: #131313;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+
+}
+
+.sponsor>p {
+    margin: 20px auto;
+    color: #727272;
+    text-align: center;
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    width: 270px;
+
+}
+
+
+.sponsor-card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sponsor-card>img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    width: 95px;
+height: 30px; 
+margin: 20px 0 0;
+}
+
+
+
+
+footer{
+    width: 960px; 
+    background: #FFF4E7;
+    margin: 30px  auto 100px;
+    text-align: center;
+
+
+}
+
+footer p{
+    padding: 20px 0;
+    color:  #424242;
+
+;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
 }
