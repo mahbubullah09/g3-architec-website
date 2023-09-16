@@ -264,8 +264,8 @@ header img {
 
     padding: 30px 21px;
     position: absolute;
-    right: 385px;
-    top: 1920px;
+   left: -90px;
+    bottom: -50px;
 }
 
 
@@ -417,3 +417,4 @@ font-style: normal;
 font-weight: 400;
 line-height: normal; 
 }
+
